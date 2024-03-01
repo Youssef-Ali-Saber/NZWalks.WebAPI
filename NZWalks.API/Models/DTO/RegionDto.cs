@@ -1,12 +1,13 @@
-﻿namespace NZWalks.WebAPI.Models.Domain
+﻿using NZWalks.WebAPI.Models.Domain;
+
+namespace NZWalks.WebAPI.Models.DTO
 {
-	public class Region
+	public class RegionDto
 	{
 		public Guid Id { get; set; }
 		public string Name { get; set; }
 		public string Code { get; set; }
 		public string? PhotoUrl { get; set; }
 		//public ICollection<Walk> Walks { get; set; }
-
 	}
 }
